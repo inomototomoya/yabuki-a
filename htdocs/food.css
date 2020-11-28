@@ -24,7 +24,7 @@ div#content{
     float: right;       /*回り込み（右寄せ）*/
     /*文字の設定*/
     background-color:#E0FFFF;
-    }
+}
 
     .slide {
     position: relative;
