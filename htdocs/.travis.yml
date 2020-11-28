@@ -12,5 +12,5 @@ branches:
 
 install:
  - pip install html5validator
-
+ 
 script: html5validator --root htdocs/ --also-check-css
