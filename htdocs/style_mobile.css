@@ -1,10 +1,10 @@
 @media screen and (max-width: 640px) {
- 
     img{
     max-width: 100%;
     height: auto;
     width /***/:auto;
     }
+    
     /*デフォルトの設定*/
     *{margin:0;padding:0}
     
@@ -18,8 +18,8 @@
         
         /*文字の設定*/
         color: white;       /*文字の色*/
-    
     }
+
     /*コンテンツの設定*/
     div#content{
         font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
@@ -30,10 +30,9 @@
         /*ボックスの配置*/
         float: right;       /*回り込み（右寄せ）*/
         /*文字の設定*/
-        background-color:#E0FFFF;
-      
+        background-color:#E0FFFF;  
     }
-    
+
     /*ナビの設定*/
     div#navi{
         /*ボックスの設定*/
