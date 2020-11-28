@@ -1,6 +1,6 @@
 .slide {
     position: relative;
-    width: 100%;
+    width: 83%;
     height: 400px;
     overflow: hidden;
   }
@@ -29,7 +29,7 @@
     left: 50%;
     transform: translate(-33%, -50%);
     width: 83%;
-    height: 400px;
+    height: 500px;
     opacity: 0;
     animation :slideshow 40s linear infinite;
   }
