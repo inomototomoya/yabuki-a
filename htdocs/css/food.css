@@ -25,11 +25,11 @@
    
   .slide img {
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
     transform: translate(-37%, -63%);
     width: 87%;
-    height: 500px;
+    height: 600px;
     opacity: 0;
     animation :slideshow 40s linear infinite;
   }
