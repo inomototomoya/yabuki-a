@@ -11,8 +11,8 @@ div#header{
     
     /*文字の設定*/
     color: white;       /*文字の色*/
-
 }
+
 /*コンテンツの設定*/
 div#content{
     font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
@@ -24,9 +24,7 @@ div#content{
     float: right;       /*回り込み（右寄せ）*/
     /*文字の設定*/
     background-color:#E0FFFF;
-
     }
-
     
 /*ナビの設定*/
 div#navi{
