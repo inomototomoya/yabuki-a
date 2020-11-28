@@ -25,7 +25,7 @@
    
   .slide img {
     position: absolute;
-    top: 70%;
+    top: 0%;
     left: 50%;
     transform: translate(-37%, -63%);
     width: 87%;
@@ -75,7 +75,7 @@ div#navi{
   /*ボックスの設定*/
   width: 13%;         /*幅*/
   height: 1000px;     /*高さ*/
-  padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
+  padding: 0.002%;  /*枠内余白（上右下左）*/
   background: #B1F9D0; /*背景色*/
   /*ボックスの配置*/
    float: left;       /*回り込み（左寄せ）*/
