@@ -26,60 +26,54 @@ div#content{
     background-color:#E0FFFF;
 }
 
-    .slide {
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    .cp_cssslider {
+    width: 300px;
+    padding-top: 200px; /* 画像の高さ */
     position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-  }
-   
-  @keyframes slideshow{
-    0%{
-      opacity: 0;
+    margin: 2em auto;
+    text-align: center;
     }
-    10%{
-      opacity: 1;
-    }
-    28%{
-      opacity: 1
-    }
-    38%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 0;
-    }
-  }
-   
-  .slide img {
+    .cp_cssslider > img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: auto;
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+    border-radius: 3px;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3);
+    }
+    .cp_cssslider input[name='cp_switch'] {
+    display: none;
+    }
+    /* サムネイル */
+    .cp_cssslider label {
+    margin: 15px 5px 0 5px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 0.6;
+    border-radius: 3px;
+    }
+    .cp_cssslider label:hover {
+    opacity: 0.9;
+    }
+    .cp_cssslider label img {
+    display: block;
+    width: 40px;
+    border-radius: 2px;
+    }
+    .cp_cssslider input[name='cp_switch']:checked + label {
+    border: 2px solid #FF7043;
+    opacity: 1;
+    }
+    .cp_cssslider input[name='cp_switch'] ~ img {
     opacity: 0;
-    animation :slideshow 40s linear infinite;
-  }
-   
-  .slide img:nth-child(2){
-    animation-delay: 8s;
-  }
-   
-  .slide img:last-child{
-    animation-delay: 16s;
-  }
-
-    
-/*ナビの設定*/
-div#navi{
-    /*ボックスの設定*/
-    width: 13%;         /*幅*/
-    height: 1000px;     /*高さ*/
-    padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
-    background: #B1F9D0; /*背景色*/
-    /*ボックスの配置*/
-     float: left;       /*回り込み（左寄せ）*/
-    /*文字の設定*/
+    }
+    .cp_cssslider input[name='cp_switch']:checked + label + img {
+    opacity: 1;
     }
 }
