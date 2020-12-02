@@ -22,12 +22,6 @@
       opacity: 0;
     }
   }
-
-  .img {
-    text-align:left;
-    margin-top: 100px;
-    
-  }
    
   .slide img {
     position: absolute;
@@ -46,6 +40,12 @@
    
   .slide img:last-child{
     animation-delay: 16s;
+  }
+  
+  .img {
+    text-align:left;
+    margin-top: 100px;
+    
   }
   
   @media print, screen and (min-width: 640px){
