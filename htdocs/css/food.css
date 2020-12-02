@@ -22,6 +22,11 @@
       opacity: 0;
     }
   }
+
+  .img {
+    text-align:right;
+    margin-top: 100px;
+  }
    
   .slide img {
     position: absolute;
