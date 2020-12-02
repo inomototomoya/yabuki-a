@@ -22,12 +22,13 @@
       opacity: 0;
     }
   }
-  
-  .img {
-    text-align: left;
-    margin-top: 100px;
-  }
 
+  .img {
+    text-align:left;
+    margin-top: 100px;
+    
+  }
+   
   .slide img {
     position: absolute;
     top: 95%;
