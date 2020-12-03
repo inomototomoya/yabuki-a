@@ -42,6 +42,11 @@
   animation-delay: 16s;
 }
 
+.img{
+  text-align :left;
+  margin-top:150px;
+}
+
 @media print, screen and (min-width: 640px){
   /*デフォルトの設定*/
 *{margin:0;padding:0}
