@@ -48,8 +48,9 @@
 }
 
 .img2{
-  text-align:left;
+  text-align:center;
   margin-top:100px;
+  margin-left:200px;
 }
 
 .img3{
@@ -60,6 +61,7 @@
 .img4{
   text-align: center;
   margin-top:100px;
+  margin-left:100px;
 }
 span{
   color:red
