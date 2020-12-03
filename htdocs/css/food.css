@@ -59,7 +59,7 @@
 
 .img4{
   text-align: center;
-  margin-top:200px;
+  margin-top:100px;
 }
 span{
   color:red
@@ -85,7 +85,7 @@ div.content{
   font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
   /*ボックスの設定*/
   width: 83%; max-width: 100%;        /*幅*/
-  height:2000px;      /*高さ*/
+  height:2500px;      /*高さ*/
   padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
   /*ボックスの配置*/
   float: right;       /*回り込み（右寄せ）*/
@@ -97,7 +97,7 @@ div.content{
 div.navi{
   /*ボックスの設定*/
   width: 13%;         /*幅*/
-  height: 2000px;     /*高さ*/
+  height: 2500px;     /*高さ*/
   padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
   background: #B1F9D0; /*背景色*/
   /*ボックスの配置*/
