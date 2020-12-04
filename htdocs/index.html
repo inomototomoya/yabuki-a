@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang='ja'>
-
-<head>
-    <meta charset='utf-8' />
-    <link rel='stylesheet' href='css/style.css'/>
-    <title>マイクロツーリズム</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <link rel="stylesheet" media="(min-width: 640px)" type="text/css" href="css/style.css">
-   <link rel="stylesheet" media="(max-width: 640px)" type="text/css" href="css/style_mobile.css">
-
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='style.css'>
+    <title>津田沼マイクロツーリズム</title>
   </head>
-  <body>
-    <div id="header">
-    <h1>津田沼<br>マイクロツーリズム</h1>
-    <h2>地元で旅行気分🚙</h2>
+   <body>
+      <div class="header">
+      <div class="header-top">
+      <div class="header-logo">津田沼マイクロツーリズム
       </div>
-      <div id="content">
-        <p>内容作成中</p>  
       </div>
-      <div id="navi">
-        <ul>
-          <li><a href="./index.html">Top page</a></li>
-          <li><a href="./view.html">view</a></li>
-          <li><a href="./food.html">food</a></li>
-            <li><a href="./route.html">route</a></li>
-          </ul>
+      <div class="nav">
+      <nav class="navmenu">
+       <ul class="flex">
+        <li><a href="./index.html">ホーム<br /><span>HOME</span></a></li>
+        <li><a href="./view.html">景気<br /><span>VIEW</span></a></li>
+        <li><a href="./food.html">食べ物<br /><span>FOOD</span></a></li>
+        <li><a href="./route.html">ルート<br /><span>ROUTE</span></a></li>
+       </ul>
+      </nav>
+    </div>
       </div>
-    </body>
+      <div class="content">
+      <div class="slide">
+        <img src="img/津田沼駅.jpg" alt="景色">
+        <img src="img/津田沼校舎.jpg" alt="景色">
+        <img src="img/谷津干潟1.jpg" alt="景色">
+        <img src="img/バラ園中2" alt="景色">
+      </div>
+
+      <section class="menu">
+        <h1 class="menu-title"><span>menu</span>メニュー</h1>
+        <div class="flex between">
+        <section class="menu-rist">
+       <a href="./view.html"><img src="img/菊田神社境内.jpg" width="300" height="200" alt="view"></a>
+       <h2 class="menu-subtitle">VIEW</h2>
+        </section>
+        <section class="menu-rist">
+       <a href="./food.html"><img src="img/つだぬまや_外景色.jpg" width="300" height="200" alt="food"></a>
+       <h2 class="menu-subtitle">FOOD</h2>
+        </section>
+        <section class="menu-rist">
+       <a href="./route.html"><img src="img/マップ.jpg" width="300" height="200" alt="route"></a>
+       <h2 class="menu-subtitle">ROUTE</h2>
+        </section>
+      </div>
+      </div>
+      <div class="footer">
+        *マイクロツーリズムとは、自宅からおよそ１時間以内の地元や近隣への短距離観光のこと。
+      </div>
+   </body>
 </html>

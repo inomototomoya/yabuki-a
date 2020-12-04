@@ -1,40 +1,127 @@
-@media print, screen and (min-width: 640px){
-    /*デフォルトの設定*/
-*{margin:0;padding:0}
-/*ヘッダの設定*/
-div#header{
-    font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
-    /*ボックスの設定*/padding: 0 0 0 2%;   /*枠内余白（上右下左）*/
-    background-color:#008000;/*背景色*/
-    
-    /*ボックスの配置*/
-    
-    /*文字の設定*/
-    color: white;       /*文字の色*/
+.header{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    color:black;
+}
+.header-top{
+    display: flex;
+}
+.header-logo{
+    float:left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+.flex{
+    display: flex;
+}
+.navmenu{
+    margin-top: 40px;
+    background-color: darkolivegreen;
+}
+.navmenu ul{
+    list-style: none;
+    justify-content: space-around;
+}
+.navmenu li{
+    width: 240px;
+    border-right: 1px solid #aaaaaa;
 }
 
-/*コンテンツの設定*/
-div#content{
-    font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
-    /*ボックスの設定*/
-    width: 83%; max-width: 100%;        /*幅*/
-    height:1000px;      /*高さ*/
-    padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
-    /*ボックスの配置*/
-    float: right;       /*回り込み（右寄せ）*/
-    /*文字の設定*/
-    background-color:#E0FFFF;
+.navmenu li:last-child{
+    border-right: none;
+}
+.navmenu a{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.slide {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+   
+  @keyframes slideshow{
+    0%{
+      opacity: 0;
     }
-    
-/*ナビの設定*/
-div#navi{
-    /*ボックスの設定*/
-    width: 13%;         /*幅*/
-    height: 1000px;     /*高さ*/
-    padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
-    background: #B1F9D0; /*背景色*/
-    /*ボックスの配置*/
-     float: left;       /*回り込み（左寄せ）*/
-    /*文字の設定*/
+    10%{
+      opacity: 1;
     }
+    28%{
+      opacity: 1
+    }
+    38%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+   
+  .slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation :slideshow 40s linear infinite;
+  }
+   
+  .slide img:nth-child(2){
+    animation-delay: 8s;
+  }
+   
+  .slide img:last-child{
+    animation-delay: 16s;
+  }
+.navmenu a:hover{
+    color: brown;
+}
+
+.menu{
+    width: 960px;
+    margin : 30px auto 80px;
+}
+.menu-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+}
+.menu-title span{
+    font-size: 26px;
+    margin-bottom: auto;
+    color: cornsilk;
+    display: block;
+    text-align: center;
+}
+.menu-rist{
+    width: 300px;
+    height: 200px;
+}
+.menu-subtitle{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px 0;
+}
+.footer{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.between{
+    justify-content: space-between;
 }
