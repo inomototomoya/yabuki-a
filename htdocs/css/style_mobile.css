@@ -9,7 +9,7 @@
     *{margin:0;padding:0}
     
     /*ヘッダの設定*/
-    div#header{
+     div.content{
         font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
         /*ボックスの設定*/padding: 0 0 0 2%;   /*枠内余白（上右下左）*/
         background-color:#008000;/*背景色*/
@@ -21,7 +21,7 @@
     }
 
     /*コンテンツの設定*/
-    div#content{
+     div.content{
         font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
         /*ボックスの設定*/
         width: 83%;     /*幅*/
@@ -34,7 +34,7 @@
     }
 
     /*ナビの設定*/
-    div#navi{
+    div.navi{
         /*ボックスの設定*/
         width: 20%;         /*幅*/
         height: 1000px;     /*高さ*/
