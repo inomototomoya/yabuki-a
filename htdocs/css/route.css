@@ -13,7 +13,7 @@ div#header{
 
 }
 /*コンテンツの設定*/
-div#content{
+div.content{
     /*ボックスの設定*/
     width: 83%;         /*幅*/
     height: 600px;      /*高さ*/
@@ -26,7 +26,7 @@ div#content{
 
     
 /*ナビの設定*/
-div#navi{
+div.navi{
     /*ボックスの設定*/
     width: 13%;         /*幅*/
     height: 600px;      /*高さ*/
@@ -39,7 +39,7 @@ div#navi{
 
         
 /*フッターの設定*/
-div#footer{
+div.footer{
     /*ボックスの設定*/
 padding: 0 0 10 2%; /*枠内余白（上右下左）*/
     background:#E0FFFF; /*背景色*/
