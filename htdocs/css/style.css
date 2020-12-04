@@ -114,6 +114,11 @@
     font-weight: bold;
     margin-right: 100px ;
 }
+
+.between{
+    justify-content: space-between;
+}
+
 .footer{
     width: 960px;
     margin-right: auto;
@@ -121,7 +126,4 @@
     font-size: 15px;
     color: black;
     text-align: center;
-}
-.between{
-    justify-content: space-between;
 }
