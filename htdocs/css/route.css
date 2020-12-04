@@ -2,21 +2,21 @@
 *{margin:0;padding:0}
 
 /*ヘッダの設定*/
-div#header{
+div.header{
     /*ボックスの設定*/padding: 0 0 0 2%;   /*枠内余白（上右下左）*/
     background: #2AB8EA;/*背景色*/
     
     /*ボックスの配置*/
     
     /*文字の設定*/
-    color: white;       /*文字の色*/
+    color:#ffffff;       /*文字の色*/
 
 }
 /*コンテンツの設定*/
 div.content{
     /*ボックスの設定*/
     width: 83%;         /*幅*/
-    height: 600px;      /*高さ*/
+    height: 1000px;      /*高さ*/
     padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
     /*ボックスの配置*/
     float: right;       /*回り込み（右寄せ）*/
@@ -42,7 +42,7 @@ div.navi{
 div.footer{
     /*ボックスの設定*/
 padding: 0 0 10 2%; /*枠内余白（上右下左）*/
-    background:#E0FFFF; /*背景色*/
+    background-color:#E0FFFF; /*背景色*/
 
     /*ボックスの配置*/
     clear: both;        /*回り込み（左右解除）*/
