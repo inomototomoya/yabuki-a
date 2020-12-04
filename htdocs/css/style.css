@@ -123,7 +123,13 @@
     width: 960px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 15px;
-    color: black;
+    font-size: 25px;
+    color: greenyellow;
+    text-align: center;
+}
+.footer-list{
+    margin: auto 0;
+    font-size: 20px;
+    color: yellow;
     text-align: center;
 }
