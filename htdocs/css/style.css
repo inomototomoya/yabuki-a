@@ -2,7 +2,7 @@
     width: 960px;
     margin-right: auto;
     margin-left: auto;
-    background-color: white;
+    background-color: #B1F9D0;
     color:black;
 }
 .header-top{
@@ -124,7 +124,7 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 28px;
-    color: greenyellow;
+    color: rgb(47, 113, 255);
     text-align: center;
 }
 .footer-list{
