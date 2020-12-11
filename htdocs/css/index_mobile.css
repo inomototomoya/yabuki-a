@@ -8,7 +8,7 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        background-color: #B1F9D0;
+        background-color: white;
         color:black;
     }
     .header-top{
@@ -97,7 +97,7 @@
         margin : 40px auto 80px;
     }
     .menu-title{
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
         color: brown;
         text-align: center;
@@ -110,7 +110,7 @@
         text-align: center;
     }
     .menu-rist{
-        width: 50%;
+        width: 88%;
         height: 200px;
     }
     .menu-subtitle{
