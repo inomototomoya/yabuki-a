@@ -1,0 +1,142 @@
+@media screen and (max-width: 640px) {
+    img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+    }
+    .header{
+        width: 66%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #B1F9D0;
+        color:black;
+    }
+    .header-top{
+        display: flex;
+    }
+    .header-logo{
+        float:left;
+        font-size: 36px;
+        padding: 20px 40px;
+    }
+    .flex{
+        display: flex;
+    }
+    .navmenu{
+        margin-top: 40px;
+        background-color: darkolivegreen;
+    }
+    .navmenu ul{
+        list-style: none;
+        justify-content: space-around;
+    }
+    .navmenu li{
+        width: 37%;
+        border-right: 1px solid #aaaaaa;
+    }
+    
+    .navmenu li:last-child{
+        border-right: none;
+    }
+    .navmenu a{
+        text-align: center;
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    .slide {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+      }
+       
+      @keyframes slideshow{
+        0%{
+          opacity: 0;
+        }
+        10%{
+          opacity: 1;
+        }
+        28%{
+          opacity: 1
+        }
+        38%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+       
+      .slide img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: auto;
+        opacity: 0;
+        animation :slideshow 40s linear infinite;
+      }
+       
+      .slide img:nth-child(2){
+        animation-delay: 8s;
+      }
+       
+      .slide img:last-child{
+        animation-delay: 8s;
+      }
+    .navmenu a:hover{
+        color: brown;
+    }
+    
+    .menu{
+        width: 100%;
+        margin : 40px auto 80px;
+    }
+    .menu-title{
+        font-size: 30px;
+        font-weight: bold;
+        color: brown;
+        text-align: center;
+    }
+    .menu-title span{
+        font-size: 26px;
+        margin-bottom: auto;
+        color: cornsilk;
+        display: block;
+        text-align: center;
+    }
+    .menu-rist{
+        width: 50%;
+        height: 200px;
+    }
+    .menu-subtitle{
+        font-size: 24px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 100px ;
+    }
+    
+    .between{
+        justify-content: space-between;
+    }
+    
+    .footer{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 28px;
+        color: rgb(47, 113, 255);
+        text-align: center;
+    }
+    .footer-list{
+        margin: auto 0;
+        font-size: 25px;
+        color:black;
+        text-align: center;
+    }
+}
