@@ -1,14 +1,14 @@
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 640px) {
     img{
     max-width: 100%;
     height: auto;
     width /***/:auto;
     }
     .header{
-        width: 100%;
+        width: 88%;
         margin-right: auto;
         margin-left: auto;
-        background-color: white;
+        background-color: #B1F9D0;
         color:black;
     }
     .header-top{
@@ -31,7 +31,7 @@
         justify-content: space-around;
     }
     .navmenu li{
-        width: 24%;
+        width: 26%;
         border-right: 1px solid #aaaaaa;
     }
     
@@ -43,7 +43,7 @@
         display: block;
         font-weight: bold;
         text-decoration: none;
-        color: #E0FFFF;
+        color: white;
     }
     .slide {
         position: relative;
@@ -94,10 +94,10 @@
     
     .menu{
         width: 100%;
-        margin : 40px auto 80px;
+        margin : 40px auto 40px;
     }
     .menu-title{
-        font-size: 28px;
+        font-size: 24px;
         font-weight: bold;
         color: brown;
         text-align: center;
@@ -114,11 +114,11 @@
         height: 200px;
     }
     .menu-subtitle{
-        font-size: 24px;
+        font-size: 20px;
         color: black;
         text-align: center;
         font-weight: bold;
-        margin-right: 100px ;
+        margin-right: auto ;
     }
     
     .between{
