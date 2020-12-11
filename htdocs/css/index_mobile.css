@@ -1,7 +1,11 @@
-@media screen and (max-width: 896px) {
-    
+@media screen and (max-width: 640px) {
+    img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+    }
     .header{
-        width: 100%;
+        width: 66%;
         margin-right: auto;
         margin-left: auto;
         background-color: #B1F9D0;
@@ -56,7 +60,7 @@
           opacity: 1;
         }
         28%{
-          opacity: 1;
+          opacity: 1
         }
         38%{
           opacity: 0;
@@ -122,18 +126,17 @@
     }
     
     .footer{
-        width: 960px;
+        width: 100%;
         margin-right: auto;
-        margin-left:auto;
-        font-size: 20px;
+        margin-left: auto;
+        font-size: 28px;
         color: rgb(47, 113, 255);
         text-align: center;
     }
     .footer-list{
-        margin-right: auto;
-        margin-left: auto;
+        margin: auto 0;
         font-size: 25px;
         color:black;
         text-align: center;
     }
-} 
+}
