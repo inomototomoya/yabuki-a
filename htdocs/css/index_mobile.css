@@ -122,15 +122,16 @@
     }
     
     .footer{
-        width: 100%;
+        width: 960px;
         margin-right: auto;
-        margin-left:0;
+        margin-left:auto;
         font-size: 20px;
         color: rgb(47, 113, 255);
         text-align: center;
     }
     .footer-list{
-        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
         font-size: 25px;
         color:black;
         text-align: center;
