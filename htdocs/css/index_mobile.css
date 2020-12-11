@@ -16,7 +16,7 @@
     }
     .header-logo{
         float:left;
-        font-size: 30px;
+        font-size: 28px;
         padding: 10px 20px;
     }
     .flex{
@@ -31,8 +31,8 @@
         justify-content: space-around;
     }
     .navmenu li{
-        width: 26%;
-        border-right: 2px solid #aaaaaa;
+        width: 24%;
+        border-right: 1px solid #aaaaaa;
     }
     
     .navmenu li:last-child{
