@@ -111,7 +111,7 @@
     }
     .menu-rist{
         width: 88%;
-        height: 200px;
+        height: auto;
     }
     .menu-subtitle{
         font-size: 20px;
@@ -119,8 +119,6 @@
         text-align: center;
         font-weight: bold;
         margin-right: auto ;
-        height: 200px;
-        width: auto;
     }
     
     .between{
