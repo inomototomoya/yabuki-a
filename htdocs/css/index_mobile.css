@@ -119,6 +119,8 @@
         text-align: center;
         font-weight: bold;
         margin-right: auto ;
+        height: 200;
+        width: auto;
     }
     
     .between{
