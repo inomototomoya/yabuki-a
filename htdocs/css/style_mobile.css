@@ -1,9 +1,9 @@
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 640px) {
    
     .slide {
         position: relative;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 400px;
         overflow: hidden;
       }
        
