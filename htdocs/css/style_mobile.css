@@ -30,7 +30,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
-        height: auto;
+        height: 400px;
         opacity: 0;
         animation :slideshow 40s linear infinite;
       }
