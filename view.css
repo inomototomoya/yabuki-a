@@ -1,0 +1,109 @@
+.slide {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+   
+  @keyframes slideshow{
+    0%{
+      opacity: 0;
+    }
+    10%{
+      opacity: 1;
+    }
+    28%{
+      opacity: 1
+    }
+    38%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+   
+  .slide img {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation :slideshow 40s linear infinite;
+  }
+   
+  .slide img:nth-child(2){
+    animation-delay: 8s;
+  }
+   
+  .slide img:last-child{
+    animation-delay: 16s;
+  }
+  
+  .img1{
+    text-align :left;
+    margin-top:100px;
+  }
+  
+  .img2{
+    text-align:center;
+    margin-top:100px;
+    margin-left:200px;
+  }
+  
+  .img3{
+    text-align:left;
+    margin-top:100px
+  }
+  
+  .img4{
+    text-align: center;
+    margin-top:100px;
+    margin-left:100px;
+  }
+  span{
+    color:red
+  }
+  
+  @media print, screen and (min-width: 640px){
+    /*デフォルトの設定*/
+  *{margin:0;padding:0}
+  /*ヘッダの設定*/
+  div.header{
+    font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
+    /*ボックスの設定*/padding: 0 0 0 2%;   /*枠内余白（上右下左）*/
+    background-color:#008000;/*背景色*/
+    
+    /*ボックスの配置*/
+    
+    /*文字の設定*/
+    color: white;       /*文字の色*/
+  }
+  
+  /*コンテンツの設定*/
+  div.content{
+    font-family : "Yu Gothic","Hiragino Maru Gothic ProN";
+    /*ボックスの設定*/
+    width: 83%; max-width: 100%;        /*幅*/
+    height:2500px;      /*高さ*/
+    padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
+    /*ボックスの配置*/
+    float: right;       /*回り込み（右寄せ）*/
+    /*文字の設定*/
+    background-color:#E0FFFF;
+    }
+    
+  /*ナビの設定*/
+  div.navi{
+    /*ボックスの設定*/
+    width: 13%;         /*幅*/
+    height: 2500px;     /*高さ*/
+    padding: 0 0 0 2%;  /*枠内余白（上右下左）*/
+    background: #B1F9D0; /*背景色*/
+    /*ボックスの配置*/
+     float: left;       /*回り込み（左寄せ）*/
+    /*文字の設定*/
+    }
+  }
